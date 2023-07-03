@@ -1,0 +1,67 @@
+.user-grid-container {
+  margin: 20px;
+}
+
+.user-grid-table {
+  width: 100%;
+  margin-top: 50px;
+  border-collapse: collapse;
+}
+
+.user-grid-table th,
+.user-grid-table td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.user-grid-row {
+  background-color: #f2f2f2;
+}
+
+/* Action buttons styles */
+.actions {
+  display: flex;
+  gap: 15px; /* space between the buttons */
+}
+
+.action-button {
+  
+  padding: 8px 13px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.action-button.edit {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.action-button.delete {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+.action-button.view {
+  background-color: #008CBA; /* Blue */
+  color: white;
+}
+
+.new-user {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  color: white;
+  background-color: #555555; /* Dark Gray */
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.new-user:hover {
+  background-color: #333333; /* Darker Gray */
+}
+
+.action-button:hover,
+.delete:hover {
+  opacity: 0.8;
+}

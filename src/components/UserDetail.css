@@ -1,0 +1,40 @@
+.detail-view-container {
+    padding: 20px;
+  }
+  
+  .detail-form {
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-style: solid;
+    padding-left: 10px;
+  }
+  
+  .form-row label {
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  .form-row input {
+    flex: 1;
+    padding: 10px;
+    
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+
+  .back-button {
+    background-color: #6c757d;
+  }
+  
